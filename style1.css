@@ -5,3 +5,9 @@ h1, h2 {
 * {
     color: rgb(139, 0, 44);
 }
+h3 {
+    color: red;
+}
+h4 {
+    color: blue;
+}
