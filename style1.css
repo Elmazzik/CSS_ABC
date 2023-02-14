@@ -13,14 +13,8 @@ h2 {
     font-style: normal;
 }
 
-.a {
-    font: 16px/50px Arial;
-}
-
-.b {
-    font: bold 16px Arial;
-}
-
-.c {
-    font: bold italic 16px/50px Arial;
+p {
+    text-indent: 50px;
+    text-align: justify;
+    width: 400px;
 }
