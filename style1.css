@@ -13,8 +13,17 @@ h2 {
     font-style: normal;
 }
 
-p {
-    text-indent: 50px;
-    text-align: justify;
-    width: 400px;
+.a {
+    text-decoration: overline;
+    color: red;
+}
+
+.b {
+    text-decoration: line-through;
+    color: green;
+}
+
+.c {
+    text-decoration: underline;
+    color: black;
 }
