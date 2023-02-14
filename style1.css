@@ -3,19 +3,16 @@
     color: rgb(69, 97, 124);
 }
 
-table {
-    width: 500px;
-    height: 300px;
+p{
+    font-size: 30px;
 }
 
-td {
-    font-weight: bold;
+h1 {
+    font-size: 50px;
     text-align: center;
 }
 
-th {
-    font-weight: normal;
-}
-h2 {
-    font-style: italic;
+h2{
+    font-size: 40px;
+    font-style: normal;
 }
