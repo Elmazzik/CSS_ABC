@@ -3,37 +3,25 @@
     color: rgb(69, 97, 124);
 }
 
-h1 {
-    width: 500px;
+h1, h2, h3 { /*задание 1*/
     text-align: center;
-    color: blue;
-    font-size: 40px;
 }
 
+h1, h2, h3 {/*задание 2*/
+    text-align: center;
+}
 h2 {
-    width: 500px;
+    color: blue;
+}
+h3 {
+    font-size: 16px;
+    color: red;
+}
+
+h1, h2, h3 {/*задание 3*/
     text-align: center;
-    color: green;
-    font-weight: normal;
-    font-size: 30px;
+    color: red;
 }
-
-p {
-    width: 500px;
-    text-align: justify;
+h3 {
     font-size: 16px;
-    line-height: 25px;
-    font-family: Arial;
-    text-indent: 40px;
-}
-
-ul {
-    width: 400px;
-    text-align: justify;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-i {
-    color: green;
 }
