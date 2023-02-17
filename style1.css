@@ -1,8 +1,12 @@
 * {
     background-color: #e5eaf5;
-    color: rgb(69, 97, 124);
+    /* color: rgb(69, 97, 124); */
 }
 
-.xxx {
-font-size: 30px;
+.one {
+    color: red;
+}
+
+.two {
+    color: green;
 }
