@@ -3,14 +3,16 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.header {
+.block .header {
+    font-family: Arial;
+}
+
+.block h2.header {
+    font-size: 30px;
     color: red;
 }
 
-h1 .header {
-font-size: 40px;
-}
-
-h2 .header {
-    font-size: 30px;
+.block h3.header {
+    font-size: 20px;
+    color: green;
 }
