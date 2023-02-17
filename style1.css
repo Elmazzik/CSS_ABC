@@ -3,25 +3,10 @@
     color: rgb(69, 97, 124);
 }
 
-h1, h2, h3 { /*задание 1*/
-    text-align: center;
-}
-
-h1, h2, h3 {/*задание 2*/
-    text-align: center;
-}
-h2 {
-    color: blue;
-}
-h3 {
-    font-size: 16px;
+ul i {
     color: red;
 }
 
-h1, h2, h3 {/*задание 3*/
-    text-align: center;
-    color: red;
-}
-h3 {
-    font-size: 16px;
+p i {
+    color: green;
 }
