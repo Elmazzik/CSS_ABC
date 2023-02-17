@@ -1,12 +1,21 @@
 * {
     background-color: #e5eaf5;
-    /* color: rgb(69, 97, 124); */
+    color: rgb(69, 97, 124);
 }
 
-.one {
-    color: red;
+.eee {
+    font-size: 20px;
 }
 
-.two {
-    color: green;
+.zzz {
+    font-size: 30px;
+}
+
+.ggg {
+    font-size: 35px;
+}
+
+.eee, .zzz, .ggg {
+    text-align: center;
+    font-family: Arial;
 }
