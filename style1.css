@@ -2,7 +2,24 @@
     background-color: #e5eaf5;
     /* color: rgb(69, 97, 124); */
 }
+ /* задание 1
+ заголовки будут размером 30px */
+h2 {
+    font-size: 20px;
+}
 
-.fff h2.bbb {
+h2 {
+    font-size: 30px;
+} 
+
+/* задание 2 
+заголовки будут красного цвета */
+h2 {
+    font-size: 20px;
+    color: blue;
+}
+
+h2 {
+    font-style: italic;
     color: red;
 }
