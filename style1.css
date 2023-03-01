@@ -3,18 +3,22 @@
     /* color: rgb(69, 97, 124); */
 }
 
-p.bbb {
-    color: red;
+.success {
+    color: green;
+    font-size: 40px;
 }
 
-p .bbb {
+.error {
     color: red;
+    font-size: 10px;
 }
 
-.eee p.bbb {
+.large {
     color: red;
+    font-size: 40px;
 }
 
-.eee p .bbb {
-    color: red;
+.small {
+    color: green;
+    font-size: 10px;
 }
