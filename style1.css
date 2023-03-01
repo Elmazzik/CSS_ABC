@@ -3,22 +3,14 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.success {
-    color: green;
-    font-size: 40px;
-}
-
-.error {
+#elem1 {
     color: red;
-    font-size: 10px;
 }
 
-.large {
-    color: red;
-    font-size: 40px;
-}
-
-.small {
+#elem2 {
     color: green;
-    font-size: 10px;
+}
+
+#elem3 {
+    color: blue;
 }
