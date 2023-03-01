@@ -3,6 +3,34 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.eee.zzz.ccc {
- color: red;
+.bbb.zzz {
+    color: red;
+}
+
+h2.bbb.zzz {
+    color: red;
+}
+
+#elem.bbb {
+    color: red;
+}
+
+#elem.bbb.zzz {
+    color: red;
+}
+
+h2#elem.bbb {
+    color: red;
+}
+
+h2.zzz {
+    color: red;
+}
+
+h2 .zzz {
+    color: red;
+}
+
+h2 .zzz {
+    color: red;
 }
