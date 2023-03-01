@@ -3,16 +3,18 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.block .header {
-    font-family: Arial;
-}
-
-.block h2.header {
-    font-size: 30px;
+p.bbb {
     color: red;
 }
 
-.block h3.header {
-    font-size: 20px;
-    color: green;
+p .bbb {
+    color: red;
+}
+
+.eee p.bbb {
+    color: red;
+}
+
+.eee p .bbb {
+    color: red;
 }
