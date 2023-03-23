@@ -4,37 +4,34 @@
 }
 
 
-* [title] {
-    color: red;
+ a:link {
+    color: #1959b9;
  }
 
-
-
- p[title] {
-    color: blue;
+ a:visited {
+    color: #47da42;
  }
 
-
- p[title=привет] {
-    color:green;
+ a:hover {
+    color: #902505;
+    text-decoration: none;
  }
+
+ a:active {
+    color: #000000;
+ }
+
 
  
- a[href^="http://"]{
-    color: black;
- }  
 
 
- a[href*=".html"] {
-    color: yellow;
+
+ a:link, a:visited, a:active  {
+    color: #2c65bc;
+    text-decoration: none;
  }
 
-
- p[title~=привет] {
-    color: purple;
+ a:hover {
+    color: #9f2b08;
+    text-decoration: underline;
  }
-
-
- [class|="top-"]{
-    color: orange;
-}
