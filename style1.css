@@ -4,6 +4,6 @@
 }
 
 
-.elem + * {
-    color: red;
-}
+#elem ~ li {
+    color: #d105ec;
+ }
