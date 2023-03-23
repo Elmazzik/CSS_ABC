@@ -4,24 +4,16 @@
 }
 
 /* задание 1 */
-p:first-of-type {
-    color: #ec0404;
-}
-
-p:last-of-type {
-    color: #ec0404;
-}
+.one li:not(.elem) {
+    color: #fe1605;
+ }
 
 /* задание 2 */
-h2:nth-of-type(2) {
-    color: #ff00bf;
-} 
-
-h2:nth-last-of-type(1) {
-   color: #ff00bf;
-} 
+.two li:not(:first-child) {
+    color: #0130ff;
+}
 
 /* задание 3 */
-h3:only-of-type {
-   color: #3700ff;
-}
+.third li:not(:first-child, :last-child) {
+    color: #3eff03;
+ }
