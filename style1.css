@@ -3,39 +3,61 @@
     /* color: rgb(69, 97, 124); */
 }
 
-a {
-	color: red;
-}
-a:hover {
-	text-decoration: none;
-}
+.ul-first .li-first:first-child {
+    color: #d10303;
+ }
 
+ /*_____________№2_____________*/
+ .ul-second .li-second:last-child {
+    color: #3c9203;
+ }
 
+ /*_____________№3_____________*/
+ .ul-third .li-third:first-child {
+    color: #d10303;
+ }
 
+ .ul-third .li-third:last-child {
+    color: #3c9203;
+ }
 
-a.zzz {
-	color: red;
-}
-a.zzz:hover {
-	text-decoration: none;
-}
+ /*_____________№4_____________*/
+ .ul-fourth .li-fourth:nth-child(3) {
+    color: #d10303;
+ }
 
+ /*_____________№5_____________*/
+ .ul-fifth .li-fifth:nth-child(2n+1) {
+    color: #d10303;
+ }
 
+ .ul-fifth .li-fifth:nth-child(2n) {
+    color: #3c9203;
+ }
 
+ /*_____________№6_____________*/
+ .ul-sixth .li-sixth:nth-child(3n) {
+    color: #d10303;
+ }
 
-#block a.zzz {
-	color: red;
-}
-#block a.zzz:hover {
-	text-decoration: none;
-}
+ /*_____________№7_____________*/
+ .ul-seventh .li-seventh:nth-last-child(2) {
+    color: #d10303;
+ }
 
+ /*_____________№8_____________*/
+ .ul-eighth .li-eighth:only-child {
+    color: #d10303;
+ }
 
+ /*_____________№9_____________*/
+ .ul-ninth .li-ninth {
+    border: 1px solid #d10303;
+    width: 70px;
+    text-align: center;
+    margin: 12px;
+ }
 
-
-.block a.zzz {
-	color: red;
-}
-.block a.zzz:hover {
-	text-decoration: none;
-}
+ .ul-ninth .li-ninth:empty {
+    border: 1px solid #0322d1;
+ }
