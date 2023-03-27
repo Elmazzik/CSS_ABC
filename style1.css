@@ -3,17 +3,18 @@
     /* color: rgb(69, 97, 124); */
 }
 
-/* задание 1 */
-.one li:not(.elem) {
-    color: #fe1605;
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: #6d78dd;
  }
 
-/* задание 2 */
-.two li:not(:first-child) {
-    color: #0130ff;
-}
-
-/* задание 3 */
-.third li:not(:first-child, :last-child) {
-    color: #3eff03;
+ .two {
+    width: 300px;
+    height: 200px;
+    background-color: #89fa7a;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
  }
