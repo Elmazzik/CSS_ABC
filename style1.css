@@ -1,31 +1,18 @@
-body {
-    background-image: url(./bg.png);
+* {
+    background-color: #e5eaf5;
+    /* color: rgb(69, 97, 124); */
+}
+
+.one li {
+    list-style: square;
  }
-
-
  
 
-
- body {
-    background-repeat: repeat-y;
+ .two li {
+    list-style: circle;
  }
-
-
-
-
- body {
-    background-repeat: repeat-x;
- }
-
-
-
  
- body {
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover;
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background: none;
+
+ .three li {
+    list-style: none;
  }
