@@ -3,17 +3,29 @@
     /* color: rgb(69, 97, 124); */
 }
 
-/* задание 1 */
-.one li:not(.elem) {
-    color: #fe1605;
+.one {
+    width: 300px;
+    height: 200px;
+    border: 6px solid blue;
  }
 
-/* задание 2 */
-.two li:not(:first-child) {
-    color: #0130ff;
-}
 
-/* задание 3 */
-.third li:not(:first-child, :last-child) {
-    color: #3eff03;
+ .two {
+    width: 300px;
+    height: 200px;
+    border: 5px dotted red;
+ }
+ 
+
+ .three {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed orange;
+ }
+
+ 
+ .four {
+    width: 300px;
+    height: 200px;
+    border: 10px double blue;
  }
