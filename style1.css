@@ -3,16 +3,36 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.one li {
-    list-style-type: lower-alpha;
+.parent1 {
+    width: 400px;
+    height: 400px;
+    border: 2px dotted blue;
  }
- 
-
- .two li {
-    list-style-type: lower-greek;
+.child1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid orange;
+    margin: 50px;
  }
- 
 
- .three li {
-    list-style-type: upper-alpha;
+
+
+ .parent2 {
+    width: 400px;
+    height: 350px;
+    border: 1px dotted blue;
+ }
+
+ .child2 {
+    width: 350px;
+    height: 300px;
+    border: 1px dotted green;
+    margin: 20px;
+ }
+
+ .child3 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid red;
+    margin: 25px;
  }
