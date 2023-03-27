@@ -4,15 +4,15 @@
 }
 
 .one li {
-    list-style: square;
+    list-style-type: lower-alpha;
  }
  
 
  .two li {
-    list-style: circle;
+    list-style-type: lower-greek;
  }
  
 
  .three li {
-    list-style: none;
+    list-style-type: upper-alpha;
  }
