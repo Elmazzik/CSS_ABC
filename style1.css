@@ -1,12 +1,31 @@
-* {
-    background-color: #e5eaf5;
-    /* color: rgb(69, 97, 124); */
-}
-
-.one {
-    width: 100px;
-    height: 100px;
-    border: 1px solid green;
-    border-radius: 50%;
+body {
+    background-image: url(./bg.png);
  }
 
+
+ 
+
+
+ body {
+    background-repeat: repeat-y;
+ }
+
+
+
+
+ body {
+    background-repeat: repeat-x;
+ }
+
+
+
+ 
+ body {
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background: none;
+ }
