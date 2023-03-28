@@ -5,43 +5,61 @@
 
 .parent1 {
     width: 200px;
-    border: 1px solid red;
+    border: 1px solid orange;
  }
-.child1 {
+
+ .child1 {
     height: 100px;
-    border: 1px solid green;
-    margin-top:    50px;
-	margin-right:  50px;
-	margin-bottom: 100px;
-	margin-left:   50px;
+    border: 1px dashed blue;
+    margin: 25px 55px 110px 12px;
  }
 
 
 
  .parent2 {
     width: 200px;
-    border: 1px solid red;
+    border: 1px solid orange;
  }
 
  .child2 {
-    height: 100px;
-    border: 1px solid green;
-    margin-top:    50px;
-	margin-right:  26px;
-	margin-bottom: 45px;
-	margin-left:   20px;
+    height: 60px;
+    border: 1px dashed blue;
+    margin: 100px 50px;
  }
+
+
 
  .parent3 {
     width: 200px;
-    border: 1px solid red;
+    border: 1px solid orange;
  }
 
  .child3 {
-    height: 100px;
-    border: 1px solid green;
-    margin-top:    30px;
-    margin-right:  60px;
-   margin-bottom: 30px;
-   margin-left:   60px;
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 25px 50px ;
+ }
+
+
+ .parent4 {
+    width: 200px;
+    border: 1px solid orange;
+ }
+
+ .child4 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 100px 50px 20px 50px;
+ }
+
+
+ .parent5 {
+    width: 400px;
+    border: 1px solid orange;
+ }
+
+ .child5 {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 30px 95px 100px 95px;
  }
