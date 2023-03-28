@@ -5,24 +5,17 @@
 
 
 .one {
-    border: 1px solid red;
-    padding: 10px 25px 40px 50px;
-    width: 300px;
-    text-align: justify;
- }
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
 
-
- .two {
-    border: 1px solid red;
-    padding: 50px 25px ;
-    width: 300px;
-    text-align: justify;
- }
-
-
- .three {
-    border: 1px solid red;
-    padding: 10px 20px 40px;
-    width: 300px;
-    text-align: justify;
- }
+.two {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; 
+	border: 10px solid rgb(71, 5, 147); 
+	box-sizing: border-box;
+}
