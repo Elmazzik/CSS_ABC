@@ -4,6 +4,17 @@
 }
 
 
-span {
+p {
+	display: inline;
+	width: 100px;
+	height: 100px;
 	border: 1px solid red;
+}
+
+a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
 }
