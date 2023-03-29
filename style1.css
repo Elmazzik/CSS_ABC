@@ -3,85 +3,75 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.parent1  {
-    text-align: center;
+.parent {
+    height: 50px;
+    width: 100px;
+    border: 1px solid green;
+    padding-top: 15px;
  }
+
+
 
  .child1 {
-    display: inline-block;
-    margin: 0px 5px;
- }
-
- 
- 
- .parent2 {
-     padding: 10px 0;
-     border: 1px solid red;
-    text-align: right;
- }
- .child2 {
-    padding: 10px;
-    border: 1px solid green;
-    display: inline-block;
- }
-
-
- 
-
- .parent3 {
-     padding: 10px 0;
-     border: 1px solid red;
-    text-align: right;
-    padding-right: 20px;
- }
- .child3 {
-    padding: 10px;
-    border: 1px solid green;
-    display: inline-block;
- }
-
-
- 
-
- .parent4 {
-     padding: 10px 0;
-     border: 1px solid red;
-    text-align: right;
- }
- .child4 {
-    padding: 10px;
-    border: 1px solid green;
-    display: inline-block;
-   margin-right: 20px;
- }
-
-
- 
-
-
- .parent5 {
-    padding: 10px 0;
+    width: 800px;
+    height: 500px;
     border: 1px solid red;
-    text-align: right;
- }
- .child5 {
-    width: 100px;
-    padding: 10px;
-    border: 1px solid green;
-    display: inline-block;
- }
-  
-
-
- .parent6 {
-    padding: 10px 0;
-    border: 1px solid red;
-    text-align: right;
- }
- .child6 {
-    width: 100px;
-    padding: 10px;
-    border: 1px solid green;
-    display: inline-block;
     text-align: center;
+    display: flex;
+
+ }
+
+
+ 
+
+ .child2 {
+    width: 800px;
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+ }
+
+
+
+ .child3 {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+ }
+
+
+ 
+
+ .child4 {
+    border: 1px solid red;
+    text-align: center;
+    display: inline-flex;
+ }
+
+
+ 
+
+ .child5 {
+    border: 1px solid red;
+    text-align: center;
+    display: inline-flex;
+    padding: 40px;
+ }
+
+
+ 
+
+ .childr6 {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    padding: 40px;
+ }
+
+ .parent1 {
+    height: 50px;
+    width: 100px;
+    border: 1px solid green;
+    padding-top: 15px;
+    margin: 20px;
  }
