@@ -3,54 +3,104 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.parent {
+.box {
     height: 50px;
-    width: 100px;
+    width: 50px;
+ }
+
+ .green {
     border: 1px solid green;
-    padding-top: 15px;
  }
 
- 
- 
- .child1 {
-    width: 500px;
-    height: 300px;
+ .red {
     border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+ }
 
+ .blue {
+    border: 1px solid blue;
  }
 
 
- 
- .child2 {
-    width: 500px;
-    height: 300px;
-    border: 1px solid red;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+ /*_____________№1_____________*/
+ .elem2 {
+    position: absolute;
+    top: 95px;
+    left: 213px;
+ }
+
+ .elem3 {
+    position: absolute;
+    top: 155px;
+    left: 277px;
  }
 
 
- 
- .child3 {
-    width: 500px;
-    height: 300px;
-    border: 1px solid red;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+ /*_____________№2_____________*/
+ .elem4 {
+    position: absolute;
+    top: 300px;
  }
 
+ .elem5 {
+    position: absolute;
+    top: 300px;
+    left: 210px;
+ }
 
- 
- .childr4 {
-    width: 500px;
-    height: 300px;
+ .elem6 {
+    position: absolute;
+    top: 300px;
+    left: 271px;
+ }
+
+ /*_____________№3_____________*/
+
+ .elem7 {
+    position: absolute;
+    top: 430px;
+ }
+
+ .elem8 {
+    position: absolute;
+    top: 455px;
+    left: 172px;
+ }
+
+ .elem9 {
+    position: absolute;
+    top: 478px;
+    left: 200px;
+ }
+
+ /*_____________№4_____________*/
+ .red-bg {
     border: 1px solid red;
-    text-align: center;
-    display: inline-flex;
-    justify-content: space-evenly;
+    background-color: red;
+ }
+
+ .green-bg {
+    border: 1px solid green;
+    background-color: green;
+ }
+
+ .blue-bg {
+    border: 1px solid blue;
+    background-color: blue;
+ }
+
+ .elem10 {
+    position: absolute;
+    top: 600px;
+ }
+
+ .elem11 {
+    position: absolute;
+    top: 625px;
+    left: 172px;
+ }
+
+ .elem12 {
+    position: absolute;
+    top: 657px;
+    left: 200px;
  }
