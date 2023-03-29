@@ -3,33 +3,85 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.parent {
-    text-align: center; 
-	padding: 10px 0;
-	border: 1px solid red;
-}
+.parent1  {
+    text-align: center;
+ }
 
-a {
-	border: 1px solid green;
-}
+ .child1 {
+    display: inline-block;
+    margin: 0px 5px;
+ }
 
-.parent1 {
+ 
+ 
+ .parent2 {
+     padding: 10px 0;
+     border: 1px solid red;
     text-align: right;
-	padding: 10px 0;
-	border: 1px solid red;
-}
+ }
+ .child2 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
 
-.a1 {
-	border: 1px solid green;
-}
 
-.parent2 {
+ 
+
+ .parent3 {
+     padding: 10px 0;
+     border: 1px solid red;
     text-align: right;
-	padding: 10px 0;
     padding-right: 20px;
-	border: 1px solid red;
-}
+ }
+ .child3 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
 
-.a3 {
-	border: 1px solid green;
-}
+
+ 
+
+ .parent4 {
+     padding: 10px 0;
+     border: 1px solid red;
+    text-align: right;
+ }
+ .child4 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+   margin-right: 20px;
+ }
+
+
+ 
+
+
+ .parent5 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+ }
+ .child5 {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
+  
+
+
+ .parent6 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+ }
+ .child6 {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+ }
