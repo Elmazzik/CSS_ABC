@@ -3,104 +3,32 @@
     /* color: rgb(69, 97, 124); */
 }
 
-.box {
-    height: 50px;
-    width: 50px;
+#elem1 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #FF8888;
+    position: relative;
+    top: 80px;
+    left: 40px;
  }
 
- .green {
-    border: 1px solid green;
+ #elem2 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #7E89EB;
+    position: relative;
+    top: 40px;
+    left: 80px;
  }
 
- .red {
-    border: 1px solid red;
- }
+ #elem3 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #4DEE99;
+    position: relative;
+    left: 160px;
 
- .blue {
-    border: 1px solid blue;
- }
-
-
- /*_____________№1_____________*/
- .elem2 {
-    position: absolute;
-    top: 95px;
-    left: 213px;
- }
-
- .elem3 {
-    position: absolute;
-    top: 155px;
-    left: 277px;
- }
-
-
- /*_____________№2_____________*/
- .elem4 {
-    position: absolute;
-    top: 300px;
- }
-
- .elem5 {
-    position: absolute;
-    top: 300px;
-    left: 210px;
- }
-
- .elem6 {
-    position: absolute;
-    top: 300px;
-    left: 271px;
- }
-
- /*_____________№3_____________*/
-
- .elem7 {
-    position: absolute;
-    top: 430px;
- }
-
- .elem8 {
-    position: absolute;
-    top: 455px;
-    left: 172px;
- }
-
- .elem9 {
-    position: absolute;
-    top: 478px;
-    left: 200px;
- }
-
- /*_____________№4_____________*/
- .red-bg {
-    border: 1px solid red;
-    background-color: red;
- }
-
- .green-bg {
-    border: 1px solid green;
-    background-color: green;
- }
-
- .blue-bg {
-    border: 1px solid blue;
-    background-color: blue;
- }
-
- .elem10 {
-    position: absolute;
-    top: 600px;
- }
-
- .elem11 {
-    position: absolute;
-    top: 625px;
-    left: 172px;
- }
-
- .elem12 {
-    position: absolute;
-    top: 657px;
-    left: 200px;
  }
